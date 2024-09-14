@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    display: flex;
+    background-color: beige;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    /* ... (existing styles) ... */
+
+/* Profile Picture Styling */
+img {
+    max-width: 50%;
+    border-radius: 2%; /* Makes the image circular */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+    background-color: rgb(239, 210, 172);
+    color: rgb(37, 29, 17);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #3b2c14;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+/* Centered Heading */
+/* ... (existing styles) ... */
+
+/* Name Styling */
+.name {
+    text-align: center; /* To center the name */
+    /* OR */
+    /* text-align: right; */ /* To align the name to the right */
+    /* Add any other styling you prefer (font size, color, etc.) */
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* ... (existing styles) ... */
+
+/* Skills Section Styling */
+#skills {
+    margin-top: 20px;
+}
+#skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+#skills li {
+    margin: 5px 0;
+}
+
+/* Other styling remains the same */
+
+/* Adjust margins, padding, and other styles as needed */
+
+
