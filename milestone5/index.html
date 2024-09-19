@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <h1>Shareable Resume Builder</h1>
+        <form id="resume-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter a username" required>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                
+                <input type="email" id="email" placeholder="Enter your email" required>
+                
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </fieldset>
+            <fieldset>
+               
+                <label for="education">Education:</label>
+                <textarea id="education" placeholder="Enter your education" rows="4"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Experience</legend>
+                
+                <textarea id="experience" placeholder="Enter your work experience" rows="4"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Skills</legend>
+               
+                <textarea id="skills" placeholder="Enter your skills" rows="4"></textarea>
+            </fieldset>
+            <button type="submit"><b>Generate Resume</b></button>
+        </form>
+    </div>
+    <div id="resume-display">
+        <!-- Generated resume will appear here -->
+    </div>
+    <div id="shareable-link-container">
+        <p>Shareable Link:</p>
+        <a id="shareable-link" href="#" target="_blank"></a>
+        https://your-resume-builder-website.com/laibafaiz
+
+    </div>
+    <button id="download-pdf">Download PDF</button>
+    <script src="script.js"></script>
+</body>
+</html>
